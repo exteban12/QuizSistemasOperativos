@@ -1,0 +1,213 @@
+
+    {
+        id: 4,
+        topic: "Conceptos Generales y Kernel",
+        question: "¿Qué modo de ejecución del procesador impide que las aplicaciones dañen el sistema?",
+        options: [
+            "Modo Usuario",
+            "Modo Núcleo / Privilegiado",
+            "Modo Seguro",
+            "Modo Administrador"
+        ],
+        correctAnswerIndex: 0
+    },
+
+    // TEMA: Gestión de Procesos
+    {
+        id: 5,
+        topic: "Gestión de Procesos",
+        question: "¿Qué es un proceso en el contexto de un Sistema Operativo?",
+        options: [
+            "Un archivo almacenado en el disco",
+            "Un programa en ejecución junto con su estado actual",
+            "Un componente físico del procesador",
+            "Una carpeta del sistema de archivos"
+        ],
+        correctAnswerIndex: 1
+    },
+    {
+        id: 6,
+        topic: "Gestión de Procesos",
+        question: "¿Qué estado adopta un proceso cuando espera un evento como la entrada/salida de datos?",
+        options: [
+            "Listo (Ready)",
+            "En ejecución (Running)",
+            "Bloqueado / Espera (Blocked)",
+            "Terminado (Terminated)"
+        ],
+        correctAnswerIndex: 2
+    },
+    {
+        id: 7,
+        topic: "Gestión de Procesos",
+        question: "¿Qué es un Interbloqueo (Deadlock)?",
+        options: [
+            "Un fallo en el disco duro",
+            "Dos o más procesos bloqueados esperando recursos que el otro posee",
+            "La saturación de la memoria RAM",
+            "Un virus informático"
+        ],
+        correctAnswerIndex: 1
+    },
+    {
+        id: 8,
+        topic: "Gestión de Procesos",
+        question: "¿Cuál de los siguientes es un algoritmo de planificación de CPU?",
+        options: [
+            "Round Robin",
+            "QuickSort",
+            "Binary Search",
+            "RGB"
+        ],
+        correctAnswerIndex: 0
+    },
+
+    // TEMA: Gestión de Memoria
+    {
+        id: 9,
+        topic: "Gestión de Memoria",
+        question: "¿Qué función cumple el espacio SWAP o memoria de intercambio?",
+        options: [
+            "Aumentar la frecuencia del procesador",
+            "Utilizar espacio en disco como extensión de la RAM",
+            "Guardar contraseñas de forma segura",
+            "Acelerar las conexiones a internet"
+        ],
+        correctAnswerIndex: 1
+    },
+    {
+        id: 10,
+        topic: "Gestión de Memoria",
+        question: "¿Qué es la memoria virtual?",
+        options: [
+            "Memoria RAM simulada en la nube",
+            "Técnica que permite ejecutar procesos más grandes que la RAM física",
+            "Un tipo de memoria caché de alta velocidad",
+            "La memoria de la tarjeta de video"
+        ],
+        correctAnswerIndex: 1
+    },
+    {
+        id: 11,
+        topic: "Gestión de Memoria",
+        question: "¿Qué es la fragmentación externa en la gestión de memoria?",
+        options: [
+            "Daño físico en el módulo de memoria RAM",
+            "Espacio libre disperso en bloques pequeños no contiguos",
+            "Perdida de datos durante un apagón",
+            "Uso exclusivo de memoria por el kernel"
+        ],
+        correctAnswerIndex: 1
+    },
+    {
+        id: 12,
+        topic: "Gestión de Memoria",
+        question: "La técnica de dividir la memoria en bloques de tamaño fijo se llama:",
+        options: [
+            "Paginación",
+            "Segmentación",
+            "Compresión",
+            "Indexación"
+        ],
+        correctAnswerIndex: 0
+    },
+
+    // TEMA: Sistemas de Archivos
+    {
+        id: 13,
+        topic: "Sistemas de Archivos",
+        question: "¿Cuál de los siguientes es un sistema de archivos nativo de Linux?",
+        options: [
+            "NTFS",
+            "FAT32",
+            "ext4",
+            "APFS"
+        ],
+        correctAnswerIndex: 2
+    },
+    {
+        id: 14,
+        topic: "Sistemas de Archivos",
+        question: "¿Qué contiene un Inodo (Inode) en los sistemas Unix/Linux?",
+        options: [
+            "El contenido exacto del archivo",
+            "Metadatos del archivo (permisos, tamaño, ubicación)",
+            "El nombre del usuario que inició sesión",
+            "La clave de cifrado del disco"
+        ],
+        correctAnswerIndex: 1
+    },
+    {
+        id: 15,
+        topic: "Sistemas de Archivos",
+        question: "¿Qué función realiza la desfragmentación de disco?",
+        options: [
+            "Elimina virus del sistema",
+            "Reorganiza bloques de archivos para que sean contiguos",
+            "Formatea el disco duro por completo",
+            "Aumenta la memoria RAM disponible"
+        ],
+        correctAnswerIndex: 1
+    },
+    {
+        id: 16,
+        topic: "Sistemas de Archivos",
+        question: "El sistema de archivos predeterminado para las versiones modernas de Windows es:",
+        options: [
+            "FAT16",
+            "NTFS",
+            "ext2",
+            "ExFAT"
+        ],
+        correctAnswerIndex: 1
+    },
+
+    // TEMA: Seguridad y Entradas/Salidas
+    {
+        id: 17,
+        topic: "Seguridad y E/S",
+        question: "¿Qué es un Driver o Controlador de dispositivo?",
+        options: [
+            "Un programa que permite al SO comunicarse con el hardware",
+            "Un componente físico de la placa madre",
+            "Un usuario con permisos de administrador",
+            "Un cable de conexión USB"
+        ],
+        correctAnswerIndex: 0
+    },
+    {
+        id: 18,
+        topic: "Seguridad y E/S",
+        question: "¿Qué significa el principio de menor privilegio en seguridad?",
+        options: [
+            "Dar acceso total a todos los usuarios",
+            "Otorgar solo los permisos estrictamente necesarios a cada usuario o proceso",
+            "Eliminar las contraseñas del sistema",
+            "Bloquear todos los programas de inicio"
+        ],
+        correctAnswerIndex: 1
+    },
+    {
+        id: 19,
+        topic: "Seguridad y E/S",
+        question: "¿Qué técnica permite a un dispositivo de E/S transferir datos a la RAM sin pasar por la CPU?",
+        options: [
+            "DMA (Direct Memory Access)",
+            "Spooling",
+            "Paging",
+            "Polling"
+        ],
+        correctAnswerIndex: 0
+    },
+    {
+        id: 20,
+        topic: "Seguridad y E/S",
+        question: "En sistemas Linux/Unix, ¿cuál es el usuario con máximo privilegio del sistema?",
+        options: [
+            "Admin",
+            "Root",
+            "Supervisor",
+            "Master"
+        ],
+        correctAnswerIndex: 1
+    }
